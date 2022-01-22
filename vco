@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="id">
+
+<head>
+
+  <title>vco suka</title>
+
+  <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+  <script src="https://arafat1618.github.io/build/aframe-ar.min.js"></script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+ <a-scene embedded arjs='sourceType: webcam;'>
+
+ <a-marker-camera preset='jos'></a-marker-camera>
+   
+ <a-image src="feed-vco_02" rotation="-90 0 0" width="2" height="2"> </a-image>
+
+  </a-scene>
+
+</body>
+
+</html> 
