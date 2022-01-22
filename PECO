@@ -1,0 +1,51 @@
+<html> 
+<html lang="id">
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.7/aframe/build/aframe-ar.js"></script>
+</head> 
+
+<body>
+    <a-scene embedded vr-mode-ui="enabled: false"
+        arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled:false;">
+        <a-camera static />
+
+
+
+        <a-marker type="pattern" url="./images/jos.patt">
+            <a-text value="VCO SUKA BANJAR JOS" rotation="-90 0 0" align="center" position="0 1.2 -1.7" color="yellow">
+            </a-text>>
+<a-image src="./images/feed-vco_02.jpg" width="4" height="3" rotation="-90 0 0" position="0 1.1 0"></a-images>
+        </a-marker>
+    </a-scene>
+
+
+
+    </a-scene>
+</body>
+
+</html>
+<head>
+
+  <title>vco suka</title>
+
+  <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+  <script src="https://arafat1618.github.io/build/aframe-ar.min.js"></script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+
+ <a-scene embedded arjs='sourceType: webcam;'>
+
+ <a-marker-camera preset='jos'></a-marker-camera>
+   
+ <a-image src="feed-vco_02" rotation="-90 0 0" width="2" height="2"> </a-image>
+
+  </a-scene>
+
+</body>
+
+</html>
